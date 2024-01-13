@@ -23,7 +23,7 @@ public class TC_03_AddTest extends BaseClass{
 		add.clickAddTest();    								 // click on Add Test
 		add.AddTestName(fileobj.getProperty("TestName"));		//Add Test Name
 		add.selectSampleTest();									//Select Sample test
-		add.selectSampleVolumn();								//Select Sample volume
+		//add.selectSampleVolumn();								//Select Sample volume
 		//add.selectSampleMode();
 		add.AddAmount(fileobj.getProperty("Amount"));
 		add.clickbtnAddTest();
